@@ -24,9 +24,10 @@ yarn add react-shared-hook
 # Example
 
 ```js
-import shareHook from 'react-shared-hook'
+import { useState } from 'react'
+import createSharedHook from 'react-shared-hook'
 
-const [useSharedHook, setter] = createSharedState(useState, 'initial state')
+const [useSharedHook, setter] = createSharedHook(useState, 'initial state')
 
 /*
  * The state of every component will be assigned the same value.
