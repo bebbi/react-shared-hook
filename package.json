@@ -18,13 +18,13 @@
     "test:watch": "nwb test --server"
   },
   "peerDependencies": {
-    "react": "^16.7.0-alpha.0"
+    "react": "^17.0.2"
   },
   "dependencies": {},
   "devDependencies": {
-    "npm-watch": "^0.6.0",
-    "nwb": "0.23.x",
-    "react": "^16.7.0-alpha.0"
+    "npm-watch": "^0.9.0",
+    "nwb": "0.25.x",
+    "react": "^17.0.2"
   },
   "repository": {
     "type": "git",
