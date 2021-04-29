@@ -1,6 +1,6 @@
 {
   "name": "react-shared-hook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple way to share a hook's state using react hooks.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -31,7 +31,10 @@
     "url": "git+https://github.com/bebbi/react-shared-hook.git"
   },
   "keywords": [
-    "react", "shared", "state", "hook"
+    "react",
+    "shared",
+    "state",
+    "hook"
   ],
   "author": "Stefan Baumann",
   "license": "MIT",
